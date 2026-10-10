@@ -1,0 +1,100 @@
+{
+  "metadata": {
+    "title": "Krew Kode",
+    "description": "A small crew of designers and developers building websites and web apps people enjoy using."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "work": "Our Work",
+    "contact": "Contact",
+    "cta": "Let's talk",
+    "homeLabel": "Krew Kode home",
+    "mainLabel": "Main navigation",
+    "mobileLabel": "Mobile navigation"
+  },
+  "controls": {
+    "darkMode": "Dark mode",
+    "switchLanguage": "Switch to Arabic",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "clock": {
+    "city": "Cairo, Egypt"
+  },
+  "mobile": {
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "navigation": "Mobile navigation"
+  },
+  "offline": {
+    "message": "You're offline.",
+    "retry": "Retry"
+  },
+  "errors": {
+    "notFound": "Page not found",
+    "backHome": "Back home",
+    "projectNotFound": "Project not found",
+    "backToWork": "Back to our work",
+    "generic": "Something went wrong.",
+    "retry": "Try again"
+  },
+  "project": {
+    "ariaLabel": "Project {slug}"
+  },
+  "splash": {
+    "loading": "Loading"
+  },
+  "loading": {
+    "label": "Loading..."
+  },
+  "hero": {
+    "headlineBeforeDesign": "We ",
+    "design": "design",
+    "designSuffix": ",",
+    "codeWord": "code",
+    "conjunction": "and ",
+    "ship": "ship",
+    "shipSuffix": ".",
+    "hintHover": "Hover a word",
+    "hintTap": "Tap a word",
+    "workLink": "See our work",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "label": "(01) About",
+    "headlineOne": "We are a small crew of designers",
+    "headlineTwo": "and developers building websites",
+    "headlineThree": "and web apps people enjoy using.",
+    "principleOneTitle": "Design first",
+    "principleOneBody": "We start with how it should feel, then write the code to match.",
+    "principleTwoTitle": "Built to last",
+    "principleTwoBody": "Clean, fast code your team can keep working on after launch.",
+    "principleThreeTitle": "Clear from day one",
+    "principleThreeBody": "Honest timelines and updates you can actually follow.",
+    "factOneLabel": "Established",
+    "factOneValue": "2026",
+    "factTwoLabel": "Based in",
+    "factTwoValue": "Cairo, EG",
+    "factThreeLabel": "We build",
+    "factThreeValue": "Web + Apps",
+    "cta": "Learn more"
+  },
+  "contact": {
+    "title": "Contact us",
+    "intro": "We'd love to hear from you.",
+    "name": "Name",
+    "nameRequired": "Name is required.",
+    "email": "Email",
+    "emailRequired": "Email is required.",
+    "emailInvalid": "Enter a valid email address.",
+    "message": "Message",
+    "messageRequired": "Message is required.",
+    "sending": "Sending...",
+    "send": "Send message",
+    "sent": "Your message was sent.",
+    "sendError": "Something went wrong. Please try again.",
+    "continue": "Continue to contact"
+  }
+}

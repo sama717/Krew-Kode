@@ -1,0 +1,100 @@
+{
+  "metadata": {
+    "title": "كرو كود",
+    "description": "فريق صغير من المصمّمين والمطوّرين يبني مواقع وتطبيقات ويب يستمتع الناس باستخدامها."
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "about": "من نحن",
+    "services": "خدماتنا",
+    "work": "أعمالنا",
+    "contact": "تواصل معنا",
+    "cta": "لنتحدث",
+    "homeLabel": "العودة إلى كرو كود",
+    "mainLabel": "التنقّل الرئيسي",
+    "mobileLabel": "التنقّل على الهاتف"
+  },
+  "controls": {
+    "darkMode": "الوضع الداكن",
+    "switchLanguage": "التبديل إلى الإنجليزية",
+    "openMenu": "فتح القائمة",
+    "closeMenu": "إغلاق القائمة"
+  },
+  "clock": {
+    "city": "القاهرة، مصر"
+  },
+  "mobile": {
+    "openMenu": "فتح القائمة",
+    "closeMenu": "إغلاق القائمة",
+    "navigation": "قائمة التنقّل"
+  },
+  "offline": {
+    "message": "لا يوجد اتصال بالإنترنت.",
+    "retry": "أعِد المحاولة"
+  },
+  "errors": {
+    "notFound": "الصفحة غير موجودة",
+    "backHome": "العودة إلى الرئيسية",
+    "projectNotFound": "المشروع غير موجود",
+    "backToWork": "العودة إلى أعمالنا",
+    "generic": "حدث خطأ ما.",
+    "retry": "أعِد المحاولة"
+  },
+  "project": {
+    "ariaLabel": "مشروع {slug}"
+  },
+  "splash": {
+    "loading": "جارٍ التحميل"
+  },
+  "loading": {
+    "label": "جارٍ التحميل..."
+  },
+  "hero": {
+    "headlineBeforeDesign": "",
+    "design": "نصمّم",
+    "designSuffix": "،",
+    "codeWord": "كود",
+    "conjunction": "و",
+    "ship": "نُطلق",
+    "shipSuffix": ".",
+    "hintHover": "مرّر المؤشر على كلمة",
+    "hintTap": "اضغط على كلمة",
+    "workLink": "شاهد أعمالنا",
+    "scroll": "مرّر"
+  },
+  "about": {
+    "label": "(01) من نحن",
+    "headlineOne": "نحن فريق صغير من المصمّمين",
+    "headlineTwo": "والمطوّرين نبني مواقع",
+    "headlineThree": "وتطبيقات ويب يستمتع بها الناس.",
+    "principleOneTitle": "التصميم أولًا",
+    "principleOneBody": "نبدأ بالإحساس الذي نريده، ثم نكتب الكود ليطابقه.",
+    "principleTwoTitle": "مبني ليدوم",
+    "principleTwoBody": "كود نظيف وسريع يستطيع فريقك مواصلة العمل عليه بعد الإطلاق.",
+    "principleThreeTitle": "وضوح من اليوم الأول",
+    "principleThreeBody": "جداول زمنية صادقة وتحديثات تستطيع متابعتها فعلًا.",
+    "factOneLabel": "تأسّسنا",
+    "factOneValue": "2026",
+    "factTwoLabel": "مقرّنا",
+    "factTwoValue": "القاهرة، مصر",
+    "factThreeLabel": "نبني",
+    "factThreeValue": "مواقع وتطبيقات",
+    "cta": "اعرف المزيد"
+  },
+  "contact": {
+    "title": "تواصل معنا",
+    "intro": "يسعدنا أن نسمع منك.",
+    "name": "الاسم",
+    "nameRequired": "الاسم مطلوب.",
+    "email": "البريد الإلكتروني",
+    "emailRequired": "البريد الإلكتروني مطلوب.",
+    "emailInvalid": "أدخل بريدًا إلكترونيًا صالحًا.",
+    "message": "الرسالة",
+    "messageRequired": "الرسالة مطلوبة.",
+    "sending": "جارٍ الإرسال...",
+    "send": "أرسل الرسالة",
+    "sent": "تم إرسال رسالتك.",
+    "sendError": "حدث خطأ ما. يُرجى المحاولة مرة أخرى.",
+    "continue": "تابع إلى صفحة التواصل"
+  }
+}
