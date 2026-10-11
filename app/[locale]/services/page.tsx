@@ -13,5 +13,5 @@ type ServicesPageProps = {
 export default async function ServicesPage({ params }: ServicesPageProps) {
   const { locale } = await params;
   setRequestLocale(locale);
-  return <ServicesSection />;
+  return <ServicesSection heading="h1" showCta={false} firstOnPage />;
 }
