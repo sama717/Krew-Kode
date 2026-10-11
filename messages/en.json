@@ -81,20 +81,236 @@
     "factThreeValue": "Web + Apps",
     "cta": "Learn more"
   },
+  "services": {
+    "label": "(02) Services",
+    "heading": {
+      "line1": "From the first sketch",
+      "line2": "to a product people use."
+    },
+    "cta": "Learn more",
+    "items": {
+      "design": {
+        "title": "UI/UX design",
+        "description": "Interfaces people understand at a glance, from the first sketch to a design system your team can reuse.",
+        "tags": ["Research", "Wireframes", "Prototypes", "Design systems"]
+      },
+      "web": {
+        "title": "Web apps",
+        "description": "Fast, reliable products that run in the browser: dashboards, portals and full platforms.",
+        "tags": ["SaaS", "Dashboards", "Marketplaces", "Internal tools"]
+      },
+      "mobile": {
+        "title": "Mobile apps",
+        "description": "iOS and Android apps that feel native and keep working on a bad connection.",
+        "tags": ["iOS", "Android", "Cross-platform"]
+      },
+      "desktop": {
+        "title": "Desktop apps",
+        "description": "Windows, macOS and Linux software for heavy work that does not fit in a browser tab.",
+        "tags": ["Windows", "macOS", "Linux", "Offline tools"]
+      },
+      "ai": {
+        "title": "AI & automation",
+        "description": "Chatbots, agents and automations that take repetitive work off your team.",
+        "tags": ["Chatbots", "AI agents", "Workflows", "Integrations"]
+      }
+    },
+    "detail": {
+      "back": "All services",
+      "includedLabel": "(01) What's included",
+      "processLabel": "(02) How we work",
+      "relatedLabel": "(03) Related work",
+      "ctaTitle": "Have a project in mind?",
+      "ctaLink": "Let's talk",
+      "process": [
+        {
+          "title": "Discover",
+          "body": "We learn your goals, your users and your constraints."
+        },
+        {
+          "title": "Design",
+          "body": "We shape the experience and agree on it with you before any code."
+        },
+        {
+          "title": "Build",
+          "body": "We build in short cycles and show progress every week."
+        },
+        {
+          "title": "Launch and support",
+          "body": "We ship, measure and keep improving."
+        }
+      ],
+      "items": {
+        "design": {
+          "intro": "Good design is the part people never notice, because everything just works. We start with the people using the product and design backwards from there.",
+          "included": [
+            "User research and interviews",
+            "Wireframes and clickable prototypes",
+            "Visual design and design systems",
+            "Handoff files your developers can build from"
+          ]
+        },
+        "web": {
+          "intro": "Fast, reliable products that run in the browser, built to keep growing with your business.",
+          "included": [
+            "Dashboards and internal tools",
+            "SaaS platforms and customer portals",
+            "Marketplaces and booking systems",
+            "Hosting, monitoring and ongoing support"
+          ]
+        },
+        "mobile": {
+          "intro": "Apps for iOS and Android that feel native, load quickly and keep working on a weak connection.",
+          "included": [
+            "iOS and Android apps",
+            "Offline mode and push notifications",
+            "App Store and Google Play publishing",
+            "Updates and maintenance after launch"
+          ]
+        },
+        "desktop": {
+          "intro": "Software for Windows, macOS and Linux, for work that needs more power than a browser tab can give.",
+          "included": [
+            "Native performance for heavy tasks",
+            "Tools that work offline",
+            "Installers and automatic updates",
+            "Integration with files, devices and hardware"
+          ]
+        },
+        "ai": {
+          "intro": "Chatbots, agents and automations that take repetitive work off your team and plug into the tools you already use.",
+          "included": [
+            "Customer support chatbots",
+            "AI agents for internal workflows",
+            "Document and data processing",
+            "Integrations with your existing systems"
+          ]
+        }
+      }
+    }
+  },
+  "work": {
+    "label": "(03) Our work",
+    "heading": {
+      "line1": "Selected work,",
+      "line2": "built with care."
+    },
+    "cta": "See all projects",
+    "viewProject": "View project",
+    "back": "All work",
+    "nextProject": "Next project",
+    "overviewLabel": "(01) Overview",
+    "meta": {
+      "client": "Client",
+      "year": "Year",
+      "services": "Services",
+      "role": "Role"
+    },
+    "steps": {
+      "challenge": "Challenge",
+      "approach": "Approach",
+      "result": "Result"
+    },
+    "projects": {
+      "lumen": {
+        "title": "Lumen",
+        "category": "Web app",
+        "subtitle": "Analytics dashboard",
+        "tagline": "An analytics dashboard that turns messy data into one clear view.",
+        "client": "Placeholder Co.",
+        "role": "Design and development",
+        "overview": "Placeholder overview. Two or three sentences about who the project was for, what the crew built and why it mattered. Replace with the real story.",
+        "challenge": "Placeholder text about what the client needed and what was getting in the way.",
+        "approach": "Placeholder text about how the crew designed, built and tested the solution.",
+        "result": "Placeholder text about what changed after launch, in plain numbers if possible.",
+        "tags": ["Web app", "UI/UX design"]
+      },
+      "kite": {
+        "title": "Kite",
+        "category": "Mobile app",
+        "subtitle": "Delivery platform",
+        "tagline": "A delivery app that keeps working when the signal does not.",
+        "client": "Placeholder Co.",
+        "role": "Design and development",
+        "overview": "Placeholder overview. Two or three sentences about who the project was for, what the crew built and why it mattered. Replace with the real story.",
+        "challenge": "Placeholder text about what the client needed and what was getting in the way.",
+        "approach": "Placeholder text about how the crew designed, built and tested the solution.",
+        "result": "Placeholder text about what changed after launch, in plain numbers if possible.",
+        "tags": ["Mobile app", "iOS", "Android"]
+      },
+      "forge": {
+        "title": "Forge",
+        "category": "Desktop app",
+        "subtitle": "Video editing tool",
+        "tagline": "A desktop video editor with a timeline that never lags.",
+        "client": "Placeholder Co.",
+        "role": "Design and development",
+        "overview": "Placeholder overview. Two or three sentences about who the project was for, what the crew built and why it mattered. Replace with the real story.",
+        "challenge": "Placeholder text about what the client needed and what was getting in the way.",
+        "approach": "Placeholder text about how the crew designed, built and tested the solution.",
+        "result": "Placeholder text about what changed after launch, in plain numbers if possible.",
+        "tags": ["Desktop app", "Windows", "macOS"]
+      },
+      "sage": {
+        "title": "Sage",
+        "category": "AI & automation",
+        "subtitle": "Support assistant",
+        "tagline": "A support assistant that answers customers and hands off to humans.",
+        "client": "Placeholder Co.",
+        "role": "Design and development",
+        "overview": "Placeholder overview. Two or three sentences about who the project was for, what the crew built and why it mattered. Replace with the real story.",
+        "challenge": "Placeholder text about what the client needed and what was getting in the way.",
+        "approach": "Placeholder text about how the crew designed, built and tested the solution.",
+        "result": "Placeholder text about what changed after launch, in plain numbers if possible.",
+        "tags": ["AI & automation", "Chatbot"]
+      }
+    }
+  },
   "contact": {
-    "title": "Contact us",
-    "intro": "We'd love to hear from you.",
-    "name": "Name",
-    "nameRequired": "Name is required.",
-    "email": "Email",
-    "emailRequired": "Email is required.",
-    "emailInvalid": "Enter a valid email address.",
-    "message": "Message",
-    "messageRequired": "Message is required.",
-    "sending": "Sending...",
-    "send": "Send message",
-    "sent": "Your message was sent.",
-    "sendError": "Something went wrong. Please try again.",
-    "continue": "Continue to contact"
+    "label": "(04) Contact",
+    "heading": {
+      "line1": "Let's",
+      "line2": "talk."
+    },
+    "intro": "Tell us what you are building. We usually reply within one working day.",
+    "rows": {
+      "email": "Email",
+      "basedIn": "Based in",
+      "follow": "Follow"
+    },
+    "form": {
+      "name": "Your name",
+      "namePlaceholder": "Jane Doe",
+      "email": "Email",
+      "emailPlaceholder": "jane@company.com",
+      "needs": "What do you need?",
+      "notSure": "Not sure yet",
+      "message": "Tell us about the project",
+      "messagePlaceholder": "A few lines is enough",
+      "submit": "Send message",
+      "sending": "Sending...",
+      "noSpam": "No spam. Ever.",
+      "errors": {
+        "nameRequired": "Please tell us your name.",
+        "emailInvalid": "Please enter a valid email.",
+        "messageShort": "Please write at least 10 characters.",
+        "generic": "Something went wrong. Please try again or email us directly."
+      },
+      "success": {
+        "title": "Thank you.",
+        "body": "We got your message and will reply within one working day.",
+        "again": "Send another message"
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Design, code and ship.",
+    "columns": {
+      "pages": "Pages",
+      "services": "Services",
+      "follow": "Follow"
+    },
+    "copyright": "© 2026 Krew Kode",
+    "backToTop": "Back to top"
   }
 }

@@ -1,11 +1,16 @@
-export type ContactData = {
-  name: string;
-  email: string;
-  message: string;
-};
+import type { ContactValues } from "@/lib/contact-validation";
 
-export async function submitContact(data: ContactData): Promise<void> {
-  // TODO: Swap this for a server action or API call once the backend is decided.
-  await new Promise<void>((resolve) => setTimeout(resolve, 500));
-  console.log("Contact submission:", data);
+export async function deliverMessage(msg: ContactValues): Promise<void> {
+  await new Promise<void>((resolve) => setTimeout(resolve, 600));
+
+  if (process.env.NODE_ENV === "development") {
+    console.log("Contact message received:", {
+      name: msg.name,
+      email: msg.email,
+      services: msg.services,
+      messageLength: msg.message.length,
+    });
+  }
+
+  // TODO: Replace with a real email provider, such as Resend, sending to process.env.CONTACT_TO_EMAIL.
 }

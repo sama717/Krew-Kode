@@ -1,6 +1,9 @@
 import { setRequestLocale } from "next-intl/server";
 import AboutSection from "@/components/sections/AboutSection";
 import HeroSection from "@/components/sections/HeroSection";
+import ServicesSection from "@/components/sections/ServicesSection";
+import WorkSection from "@/components/sections/WorkSection";
+import ContactSection from "@/components/sections/ContactSection";
 import { routing } from "@/i18n/routing";
 
 export function generateStaticParams() {
@@ -19,6 +22,9 @@ export default async function Home({ params }: HomeProps) {
     <>
       <HeroSection />
       <AboutSection />
+      <ServicesSection />
+      <WorkSection />
+      <ContactSection />
     </>
   );
 }

@@ -13,5 +13,5 @@ type WorkPageProps = {
 export default async function WorkPage({ params }: WorkPageProps) {
   const { locale } = await params;
   setRequestLocale(locale);
-  return <WorkSection />;
+  return <WorkSection heading="h1" showCta={false} firstOnPage />;
 }

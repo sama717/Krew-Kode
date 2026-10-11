@@ -17,6 +17,11 @@ export const NAV_CTA = {
 
 export const SITE = {
   name: "Site name",
-  email: "",
-  socials: [] as { label: string; href: string }[],
+  // TODO: Replace these contact placeholders with the production destinations.
+  email: "hello@krewkode.com",
+  socials: [
+    { label: "LinkedIn", href: "https://www.linkedin.com" },
+    { label: "Instagram", href: "https://www.instagram.com" },
+    { label: "GitHub", href: "https://github.com" },
+  ],
 };
