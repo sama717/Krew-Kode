@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Krew Kode",
-    "description": "A small crew of designers and developers building websites and web apps people enjoy using."
+    "description": "A crew of designers and developers building websites and web apps people enjoy using."
   },
   "nav": {
     "home": "Home",
@@ -64,15 +64,45 @@
   },
   "about": {
     "label": "(01) About",
-    "headlineOne": "We are a small crew of designers",
+    "headlineOne": "We are a crew of designers",
     "headlineTwo": "and developers building websites",
     "headlineThree": "and web apps people enjoy using.",
-    "principleOneTitle": "Design first",
-    "principleOneBody": "We start with how it should feel, then write the code to match.",
-    "principleTwoTitle": "Built to last",
-    "principleTwoBody": "Clean, fast code your team can keep working on after launch.",
-    "principleThreeTitle": "Clear from day one",
-    "principleThreeBody": "Honest timelines and updates you can actually follow.",
+    "carouselLabel": "How we work",
+    "pauseHint": "Hover to pause.",
+    "slides": {
+      "sketching": "Sketching",
+      "wireframing": "Wireframing",
+      "building-ui": "Building UI",
+      "writing-code": "Writing code",
+      "shipping": "Shipping"
+    },
+    "principlesLabel": "Our principles",
+    "principles": {
+      "design-first": {
+        "title": "Design first",
+        "body": "We start with how it should feel, then write the code to match."
+      },
+      "built-to-last": {
+        "title": "Built to last",
+        "body": "Clean, fast code your team can keep working on after launch."
+      },
+      "clear-from-day-one": {
+        "title": "Clear from day one",
+        "body": "Honest timelines and updates you can actually follow."
+      }
+    },
+    "where": {
+      "label": "(02) Where we are",
+      "city": "Cairo, Egypt.",
+      "remote": "Working with people anywhere."
+    },
+    "globe": {
+      "label": "Cairo",
+      "hint": "Drag to rotate",
+      "est": "Est. 2026"
+    },
+    "ctaHeading": "Want to work with us?",
+    "ctaLink": "Let's talk",
     "factOneLabel": "Established",
     "factOneValue": "2026",
     "factTwoLabel": "Based in",

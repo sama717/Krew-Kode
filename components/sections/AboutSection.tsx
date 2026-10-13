@@ -1,6 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import ArrowLink from "@/components/ui/ArrowLink";
 import Reveal from "@/components/ui/Reveal";
+import { principles as principleIds } from "@/lib/content/about";
 
 type AboutSectionProps = {
   heading?: "h1" | "h2";
@@ -12,15 +13,11 @@ export default async function AboutSection({
   showCta = true,
 }: AboutSectionProps) {
   const t = await getTranslations("about");
-  const principles = [
-    { number: "01", title: t("principleOneTitle"), body: t("principleOneBody") },
-    { number: "02", title: t("principleTwoTitle"), body: t("principleTwoBody") },
-    {
-      number: "03",
-      title: t("principleThreeTitle"),
-      body: t("principleThreeBody"),
-    },
-  ];
+  const principles = principleIds.map((id, index) => ({
+    number: `0${index + 1}`,
+    title: t(`principles.${id}.title`),
+    body: t(`principles.${id}.body`),
+  }));
   const facts = [
     { label: t("factOneLabel"), value: t("factOneValue") },
     { label: t("factTwoLabel"), value: t("factTwoValue") },
